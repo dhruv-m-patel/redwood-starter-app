@@ -1,7 +1,10 @@
+import { MetaTags } from '@redwoodjs/web'
+
 import MainLayout from 'src/layouts/MainLayout'
 
 export default () => (
   <MainLayout>
+    <MetaTags title="Hello World!" description="Hello World Page" />
     <header>
       <h1>Hello World!</h1>
     </header>
