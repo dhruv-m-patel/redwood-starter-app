@@ -9,6 +9,8 @@ export default ({ children }: { children: React.ReactNode }) => (
                 background-color: #E2E8F0;
                 height: 100vh;
                 text-align: center;
+                padding: 1rem;
+                margin: 0 auto;
               }
               html * {
                 box-sizing: border-box;
@@ -16,6 +18,8 @@ export default ({ children }: { children: React.ReactNode }) => (
               main {
                 display: flex;
                 align-items: center;
+                padding: 1rem;
+                margin: 0 auto;
               }
               section {
                 background-color: white;
